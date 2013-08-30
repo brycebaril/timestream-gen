@@ -1,0 +1,35 @@
+{
+  "name": "timestream-gen",
+  "version": "0.0.0",
+  "description": "Timeseries stream generators for http://npm.im/timestream streams",
+  "main": "gen.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/timestream-gen.git"
+  },
+  "keywords": [
+    "stream",
+    "tsdb",
+    "timeseries",
+    "timestream"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/timestream-gen/issues"
+  },
+  "dependencies": {
+    "isnumber": "~1.0.0",
+    "stream-spigot": "~2.1.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "concat-stream": "~1.0.1"
+  }
+}

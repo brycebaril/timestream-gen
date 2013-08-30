@@ -1,6 +1,6 @@
 {
   "name": "timestream-gen",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Timeseries stream generators for http://npm.im/timestream streams",
   "main": "gen.js",
   "directories": {

@@ -54,7 +54,7 @@ function incr(options) {
   var increment = isNumber(options.increment) ? options.increment : 1
 
   return function () {
-    if (_t > options.until) return null
+    if (_t > options.until) return this.push(null)
 
     var record = {}
     record[options.key] = current
@@ -62,7 +62,7 @@ function incr(options) {
 
     _t += interval
     current += options.increment
-    return record
+    this.push(record)
   }
 }
 
@@ -71,7 +71,7 @@ function random(options) {
   var interval = +options.interval
 
   return function () {
-    if (_t > options.until) return null
+    if (_t > options.until) return this.push(null)
 
     var record = {}
     record[options.key] = Math.random()
@@ -79,6 +79,6 @@ function random(options) {
 
     _t += interval
 
-    return record
+    this.push(record)
   }
 }

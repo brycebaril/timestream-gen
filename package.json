@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "isnumber": "~1.0.0",
-    "stream-spigot": "~3.0.0"
+    "stream-spigot": "~3.0.3"
   },
   "devDependencies": {
-    "tape": "~2.0.0",
-    "concat-stream": "~1.0.1"
+    "tape": "~2.4.0",
+    "concat-stream": "~1.4.1"
   }
 }
